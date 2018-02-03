@@ -1,4 +1,5 @@
 import cgi
+import time
 
 print("Content-Type: text/html")
 print()
@@ -8,3 +9,5 @@ print("<body>")
 print("<h2>Welcome to the Python!!!</h2>")
 print("</body>")
 print("</html>")
+
+time.clock()
